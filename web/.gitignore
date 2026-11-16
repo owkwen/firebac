@@ -1,0 +1,6 @@
+public/data/*
+!public/data/.gitkeep
+node_modules/
+dist/
+*.local
+.DS_Store

@@ -1,0 +1,68 @@
+{
+  "schema": "fire-model/1",
+  "region": "CA",
+  "method": "occupancy",
+  "unit": "expected detected 0.01 deg cell-day",
+  "reference_sensor": "MODIS",
+  "estimate": "P(MODIS present | VIIRS present, multiplicity), calibrated on 2012-2022 and applied unchanged after",
+  "multiplicity_bins": [
+    {
+      "label": "1",
+      "p": 0.13627984,
+      "ci": [
+        0.1353,
+        0.1372
+      ],
+      "events": 506113,
+      "correction": 7.34
+    },
+    {
+      "label": "2-3",
+      "p": 0.25587753,
+      "ci": [
+        0.2545,
+        0.2573
+      ],
+      "events": 374945,
+      "correction": 3.91
+    },
+    {
+      "label": "4-7",
+      "p": 0.43720414,
+      "ci": [
+        0.4351,
+        0.4393
+      ],
+      "events": 216320,
+      "correction": 2.29
+    },
+    {
+      "label": "8+",
+      "p": 0.64708433,
+      "ci": [
+        0.643,
+        0.6511
+      ],
+      "events": 53041,
+      "correction": 1.55
+    }
+  ],
+  "validation": {
+    "log_loss_canada_2023": {
+      "frp": 0.602,
+      "multiplicity": 0.5475,
+      "frp_multiplicity": 0.54
+    },
+    "transfer": "trained on Argentina 2019, tested on Canada 2023",
+    "shape": "the curve is region-invariant; the level depends on the matching unit",
+    "ece": 0.0396
+  },
+  "caveats": [
+    "The target is a 0.01 deg co-location indicator, not a detection probability.",
+    "A 3x3 matching neighbourhood raises the level (0.288 to 0.684 in Canada 2023).",
+    "Landscape is not normalised away; the shape transfers, the level is calibrated per region.",
+    "No single correction factor: r falls from about 7.3 to 1.5 as multiplicity rises.",
+    "Geometric covariates (footprint, solar zenith) add almost nothing once multiplicity is known."
+  ],
+  "generated_utc": "2026-11-16T03:17:38+00:00"
+}

@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/*.csv
+data/processed/
+data/*.log
+.pytest_cache/
+.ruff_cache/
+private/
+
+web/public/artifacts/hotspots/
+web/public/celldays/
+web/public/detections/
+web/public/tiles/
+web/public/passcells/
+web/public/passes/
+web/public/data/
+.~lock*
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/figures/.ipynb_checkpoints/

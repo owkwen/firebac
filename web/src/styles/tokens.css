@@ -1,0 +1,59 @@
+:root {
+  --canvas: #090d11;
+  --panel: #0f151c;
+  --raised: #151e27;
+  --sunken: #070a0d;
+  --edge: #202c38;
+  --edge-strong: #324456;
+  --ink: #d9e2ec;
+  --muted: #8b9db2;
+  --faint: #738699;
+  --accent: #f0a12b;
+  --accent-soft: #352512;
+  --focus: #7cc4ff;
+  --danger: #ff7b72;
+  --ok: #5ed48a;
+  --warn: #e3b341;
+
+  --modis: #56b4e9;
+  --viirs: #e69f00;
+  --ceiling: #f87171;
+  --chart-grid: #1c2733;
+  --chart-band: #7cc4ff;
+
+  --font-ui: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-data: ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, monospace;
+
+  --radius: 4px;
+  --row-height: 26px;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-panel: var(--panel);
+  --color-raised: var(--raised);
+  --color-sunken: var(--sunken);
+  --color-edge: var(--edge);
+  --color-edge-strong: var(--edge-strong);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-focus: var(--focus);
+  --color-danger: var(--danger);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-modis: var(--modis);
+  --color-viirs: var(--viirs);
+
+  --font-sans: var(--font-ui);
+  --font-mono: var(--font-data);
+
+  --text-2xs: 11px;
+  --text-2xs--line-height: 15px;
+  --text-xs: 12px;
+  --text-xs--line-height: 16px;
+  --text-sm: 13px;
+  --text-sm--line-height: 18px;
+}

@@ -1,0 +1,103 @@
+{
+  "region": "CA",
+  "years": [
+    {
+      "year": 2012,
+      "cell_days": 88791,
+      "density_cells": 8250,
+      "density_bytes": 210785,
+      "celldays_bytes": 555352
+    },
+    {
+      "year": 2013,
+      "cell_days": 150133,
+      "density_cells": 9363,
+      "density_bytes": 243678,
+      "celldays_bytes": 898562
+    },
+    {
+      "year": 2014,
+      "cell_days": 211692,
+      "density_cells": 9089,
+      "density_bytes": 239272,
+      "celldays_bytes": 1182402
+    },
+    {
+      "year": 2015,
+      "cell_days": 156149,
+      "density_cells": 10777,
+      "density_bytes": 281646,
+      "celldays_bytes": 918897
+    },
+    {
+      "year": 2016,
+      "cell_days": 62288,
+      "density_cells": 7823,
+      "density_bytes": 198666,
+      "celldays_bytes": 407707
+    },
+    {
+      "year": 2017,
+      "cell_days": 186055,
+      "density_cells": 9856,
+      "density_bytes": 257862,
+      "celldays_bytes": 1053605
+    },
+    {
+      "year": 2018,
+      "cell_days": 131332,
+      "density_cells": 8596,
+      "density_bytes": 222540,
+      "celldays_bytes": 764651
+    },
+    {
+      "year": 2019,
+      "cell_days": 82532,
+      "density_cells": 7028,
+      "density_bytes": 179971,
+      "celldays_bytes": 506413
+    },
+    {
+      "year": 2020,
+      "cell_days": 30192,
+      "density_cells": 6677,
+      "density_bytes": 167162,
+      "celldays_bytes": 213253
+    },
+    {
+      "year": 2021,
+      "cell_days": 182252,
+      "density_cells": 9521,
+      "density_bytes": 248985,
+      "celldays_bytes": 1055404
+    },
+    {
+      "year": 2022,
+      "cell_days": 78936,
+      "density_cells": 6997,
+      "density_bytes": 179236,
+      "celldays_bytes": 491015
+    },
+    {
+      "year": 2023,
+      "cell_days": 669730,
+      "density_cells": 13470,
+      "density_bytes": 373989,
+      "celldays_bytes": 3574241
+    },
+    {
+      "year": 2024,
+      "cell_days": 274952,
+      "density_cells": 9202,
+      "density_bytes": 244425,
+      "celldays_bytes": 1486176
+    },
+    {
+      "year": 2025,
+      "cell_days": 349109,
+      "density_cells": 10043,
+      "density_bytes": 269809,
+      "celldays_bytes": 1885430
+    }
+  ]
+}
