@@ -1,0 +1,89 @@
+{
+  "region": "CA",
+  "years": [
+    {
+      "year": 2012,
+      "passes": 2083,
+      "pass_cells": 129504,
+      "bytes": 748596
+    },
+    {
+      "year": 2013,
+      "passes": 2091,
+      "pass_cells": 224067,
+      "bytes": 1268375
+    },
+    {
+      "year": 2014,
+      "passes": 2039,
+      "pass_cells": 313293,
+      "bytes": 1593763
+    },
+    {
+      "year": 2015,
+      "passes": 2135,
+      "pass_cells": 228546,
+      "bytes": 1291058
+    },
+    {
+      "year": 2016,
+      "passes": 2017,
+      "pass_cells": 83345,
+      "bytes": 529637
+    },
+    {
+      "year": 2017,
+      "passes": 2078,
+      "pass_cells": 296821,
+      "bytes": 1629270
+    },
+    {
+      "year": 2018,
+      "passes": 2000,
+      "pass_cells": 197871,
+      "bytes": 1140042
+    },
+    {
+      "year": 2019,
+      "passes": 1996,
+      "pass_cells": 124517,
+      "bytes": 704463
+    },
+    {
+      "year": 2020,
+      "passes": 1932,
+      "pass_cells": 36299,
+      "bytes": 274335
+    },
+    {
+      "year": 2021,
+      "passes": 2108,
+      "pass_cells": 301220,
+      "bytes": 1629258
+    },
+    {
+      "year": 2022,
+      "passes": 1863,
+      "pass_cells": 112981,
+      "bytes": 660406
+    },
+    {
+      "year": 2023,
+      "passes": 2380,
+      "pass_cells": 1059051,
+      "bytes": 5092977
+    },
+    {
+      "year": 2024,
+      "passes": 2149,
+      "pass_cells": 446322,
+      "bytes": 2243045
+    },
+    {
+      "year": 2025,
+      "passes": 2278,
+      "pass_cells": 557335,
+      "bytes": 2769695
+    }
+  ]
+}
